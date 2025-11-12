@@ -53,19 +53,19 @@
         <p id="pesan5" class="gaya2">Semoga bertambah usia, bertambah pula kebahagiaan dan kesuksesannya</p>
         <p id="pesan6" class="gaya2">Semoga panjang umur dan selalu diberikan kesehatan</p>
         <p id="pesan7" class="gaya2">Sehat selalu dan bahagia selalu ya!</p>
-        <p id="pesan8" class="gaya2">Di hari spesialmu ini, semoga semua harapan dan impianmu terkabul</p>
-        <p id="pesan9" class="gaya2">Semoga di usia yang baru ini, kang bisa menjadi pribadi yang lebih baik lagi dan selalu diberikan keberkahan dalam hidup.. 🥳❤️</p>
-        <p id="pesan10" class="gaya2">Happy Level Up Day!! 🥳</p>
+        <p id="pesan8" class="gaya2">Di hari spesial akang ini, semoga semua harapan dan impian akang terkabul</p>
+        <p id="pesan9" class="gaya2">Semoga di usia yang baru ini, akang bisa terus berkarya lagi dan selalu diberikan keberkahan dalam hidup.. 🥳❤️</p>
+        <p id="pesan10" class="gaya2">Happy Level Up Day Kang!! 🥳</p>
         <p id="opsL">Klik untuk melanjutkan</p>
       </blockquote>
     </div>
     <div id="Tombol">
       <a id="By">💌 Lanjut</a>
     </div>
-    <p id="katatambahan" class="sembunyi">Terima kasih sudah membuka kado ini! 😊</p>
+    <p id="katatambahan" class="sembunyi">Terima kasih sudah mau melanjutkan ini! 😊</p>
     <div id="pesanditolak">
       <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif">
-      <p id="kataditolak">Baiklah, tetap terima kasih ya! 😊</p>
+      <p id="kataditolak">Baiklah, terima kasih ya! 😊</p>
     </div>
   </div>
   <script>
@@ -135,13 +135,13 @@
   }
 
   //Variable Pertanyaan Akhir
-  var tanya = 'Apakah Anda ingin menerima kado virtual ini? 😊❤️';
+  var tanya = 'Apakah Anda ingin melanjutkan? 😊❤️';
   var opstanya = 'Silakan pilih jawaban';
-  var tompositif = 'Ya, terima kasih';
-  var tomnegatif = 'Tidak, terima kasih';
+  var tompositif = 'Ya';
+  var tomnegatif = 'Tidak';
     
   async function menuju(){
-    pesanwhatsapp = "Terima kasih kang " + nama + " sudah mengucapkan selamat ulang tahun! ><";
+    pesanwhatsapp = "Terima kasih sudah ngucapin akang " + nama + " ulang tahun Rio! ><";
     await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp saya, ya!', 'success');
     window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
   }
